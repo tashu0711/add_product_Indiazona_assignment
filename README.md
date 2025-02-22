@@ -78,7 +78,7 @@ This project contains two key components:
 - **NewProduct.jsx**: Allows users to add new products with detailed specifications.
 - **ManageProduct.jsx**: Enables users to view, search, filter, and manage existing products.
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 1. **Clone the Repository**
    ```sh
@@ -96,33 +96,60 @@ This project contains two key components:
    npm start
    ```
 
-## ✨ Features
+# Product Management System
+
+This repository contains optimized React components for managing products efficiently.
+
+##  Project Structure
+- **NewProduct.jsx**: Component for adding new products with form validation, image upload, and SEO metadata.
+- **ManageProduct.jsx**: Component for listing, filtering, and managing products with optimized rendering.
+- **README.md**: Project documentation explaining features, setup, and best practices.
+
+##  Installation & Setup
+
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/your-repo/product-management.git
+   cd product-management
+   ```
+
+2. **Install Dependencies**
+   ```sh
+   npm install
+   ```
+
+3. **Run the Application**
+   ```sh
+   npm start
+   ```
+
+##  Features
 
 ### `NewProduct.jsx`
-✅ Dynamic form for adding products.
-✅ Image upload functionality.
-✅ Category & subcategory selection.
-✅ SEO optimization fields.
-✅ Inventory and shipping details management.
-✅ State optimization using `useCallback` and `useMemo`.
-✅ Lazy loading of heavy components (`SpecificationEditor`, `ImageUploader`).
+- Dynamic form for adding products.
+- Image upload functionality.
+- Category & subcategory selection.
+- SEO optimization fields.
+- Inventory and shipping details management.
+- State optimization using `useCallback` and `useMemo`.
+- Lazy loading of heavy components (`SpecificationEditor`, `ImageUploader`).
 
 ### `ManageProduct.jsx`
-✅ List, search, and filter products.
-✅ Edit and delete product options.
-✅ Memoized product rendering (`React.memo`).
-✅ Category-based filtering.
-✅ Uses localStorage to persist product data.
+- List, search, and filter products.
+- Edit and delete product options.
+- Memoized product rendering (`React.memo`).
+- Category-based filtering.
+- Uses localStorage to persist product data.
 
-## 🚀 Optimizations
-- **Performance Boost**: Reduced re-renders using `useMemo` and `useCallback`.
+##  Code Optimization
+- **Performance Improvements**: Reduced re-renders using `useMemo` and `useCallback`.
 - **Code Splitting**: Implemented dynamic imports for heavy components.
 - **State Management**: Efficient updates to prevent unnecessary recalculations.
-- **Better User Experience**: Faster loading and smooth UI interactions.
+- **Enhanced UX**: Faster loading and smooth UI interactions.
 
-## 🛠️ Usage Instructions
+## Usage Instructions
 - **Adding a New Product**: Navigate to `/admin-dashboard/product/add` and fill in the form.
 - **Managing Products**: Navigate to `/admin-dashboard/product/manage` to edit, delete, or search for products.
 
-## 📝 License
+##  License
 This project is licensed under the MIT License.
